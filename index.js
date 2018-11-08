@@ -15,10 +15,16 @@ html,body { overflow: hidden; }
 <\/body>
 <\/html>`;
 
-var defaultStuff = '<h3>Welcome to Try HTML Live Editor<\/h3>\n' +
-'<img src="https://avatars2.githubusercontent.com/u/32694766?s=50">';
+var defaultStuff = '<link href="https://languages.abranhe.com/logos.css" rel="stylesheet">\n\n' +
+'<h2>Visit <a href="https://github.com/tryhtml/editor">github.com/tryhtml/editor</a> to help us improve this editor</h2>'+
+'<i class="programming lang-ruby"></i>\n'+
+'<i class="programming lang-javascript"></i>\n'+
+'<i class="programming lang-cpp"></i>\n'+
+'<i class="programming lang-typescript"></i>\n'+
+'<i class="programming lang-python"></i>\n'+
+'<i class="programming lang-kotlin"></i>\n';
 
-var extraStuff = `<div style="position:absolute; margin:.3em; bottom:0em; right:0em;"><small>\n <a href="https://github.com/tryhtml/editor" target="_top">Improve this page<\/a> <\/small><\/div>`;
+var extraStuff = `<div style="position:absolute; margin:.3em; bottom:0em; right:0em;">\n<h2><a href="/users" target="_top">Who is using tryhtml editor. Add yourself<\/a><\/h2><\/div>`;
 
 var old = '';
 
